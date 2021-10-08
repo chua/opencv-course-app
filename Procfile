@@ -1,1 +1,1 @@
-web: gunicorn cv_web_app:apphero
+web: gunicorn wsgi:app
